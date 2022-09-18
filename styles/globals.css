@@ -24,3 +24,24 @@ a {
     background: black;
   }
 }
+
+body {
+background-color: green;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#logo { 
+width: 50px;
+height: 50px;
+}
+
+#logo:hover {
+background-color: white;
+opacity: 0.4;
+}
+
+#h1 {
+font: copperplate;
+outline-color: white;
+}
