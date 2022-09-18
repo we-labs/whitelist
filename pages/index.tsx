@@ -6,7 +6,7 @@ import keccak256 from 'keccak256'
 
 declare let window: any;
 
-const whitelistAddresses: any = ['0x4ae70b51e3c82da5be3284d90325ffa1898340d7', '0x4ae70b51e3c82da5be3284d90325ffa1898340d7']
+const whitelistAddresses: any = ['0x4ae70b51e3c82da5b33484d90325ffa1898340d7', '0x9ae70551e3c821a5be3284d90325ffa1898340d7']
 
 const Home: NextPage = () => {
   const leafNodes = whitelistAddresses.map((addr: any) => keccak256(addr))
